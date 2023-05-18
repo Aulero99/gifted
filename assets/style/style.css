@@ -1,0 +1,56 @@
+/* BASIC STYLES HERE */
+
+button{
+    all:unset
+}
+
+.gift-card{
+    width: 14rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.content-area{
+    background-color: rgb(205, 205, 205);
+    justify-content: space-around;
+}
+
+.form-area {
+    background-color: rgb(0, 70, 0);
+}
+
+.form-area form{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-area form label{
+    font-weight: bold;
+    margin-top: 0.5rem;
+    color: white;
+}
+
+.form-area form small{
+    color: white;
+}
+
+.form-area form button{
+
+    display: block;
+    text-align: center;
+    border: 0;
+    border-radius: 0.5rem;
+    background-color: antiquewhite;
+    color: black;
+    font-size: 1.2rem;
+    padding: 0.35rem;
+    font-weight: bold;
+    margin: 2rem 0.5rem;
+    transition: 20ms;
+}
+
+.form-area form button:hover{
+    background-color: black;
+    color: white;
+}
